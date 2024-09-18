@@ -1,0 +1,28 @@
+.portfolio{    
+    position:absolute;
+    top: 300vh;
+    height: 200vh;
+}
+.portfolioTitle{
+    height: 20vh;
+    margin: 5vh;
+    font-weight: 700;
+    font-size: 6vW;
+    text-align: right;
+    padding-right: 5vw;
+}
+.showCaseDisplay1  {
+    width: 100vw;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 70vh;
+}
+.pictureSections{
+    margin-left: 15vh;
+    transition-duration: 1s;
+    border: 5px;
+}
+.pictureSections:hover  {
+    scale: 130%;
+
+}
