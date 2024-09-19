@@ -48,6 +48,9 @@
     margin-top: 2vh;
     margin-left: -2vh;
     width: 15vh;
+    height: 20vh;
+    object-fit: cover;
+    object-position: top;
     z-index: -1;
 }
 .imgWedding5{
