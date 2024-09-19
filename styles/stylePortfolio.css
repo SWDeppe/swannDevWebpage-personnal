@@ -1,28 +1,90 @@
 .portfolio{    
     position:absolute;
     top: 300vh;
-    height: 200vh;
+    height: 100vh;
 }
 .portfolioTitle{
-    height: 20vh;
-    margin: 5vh;
+    margin: 5vh 5vh 0 5vh;
     font-weight: 700;
-    font-size: 6vW;
+    font-size: 13vh;
     text-align: right;
     padding-right: 5vw;
 }
-.showCaseDisplay1  {
+.showCaseDisplay  {
     width: 100vw;
+    height: 80vh;
     display: grid;
     grid-template-columns: auto auto auto;
-    grid-template-rows: 70vh;
+    grid-template-rows: 60vh;
 }
 .pictureSections{
-    margin-left: 15vh;
-    transition-duration: 1s;
-    border: 5px;
+    margin-left: 10vh;
+    margin-top: 10vh;
+    transition-duration: 0.5s;
+    font-size: 3vh;
 }
 .pictureSections:hover  {
-    scale: 130%;
-
+    scale: 120%;
 }
+.imgWedding{
+    position:absolute;
+}
+.imgWedding1{
+    margin-top: -32vh;
+    width: 35vh;
+}
+.imgWedding2{
+    margin-top: -25vh;
+    margin-left: 25vh;
+    width: 38vh;
+    z-index: -2;
+}
+.imgWedding3{
+    width: 55vh;
+    margin-top: -3vh;
+    z-index: -1;
+}
+.imgWedding4{
+    margin-top: 2vh;
+    margin-left: -2vh;
+    width: 15vh;
+    z-index: -1;
+}
+.imgWedding5{
+    margin-top: 8vh;
+    margin-left: 42vh;
+    width: 20vh;
+    height: 30vh;
+    z-index: -1;
+    object-fit: cover;
+    object-position: 80% 80%;
+}
+.imgWedding6{
+    margin-top: 30vh;
+    margin-left: -2vh;
+    width: 20vh;
+    height: 20vh;
+    z-index: -1;
+    object-fit: cover;
+}
+.imgWedding7{
+    margin-top: 28.12vh;
+    margin-left: 30vh;
+    width: 23vh;
+    z-index: -1;
+}
+.imgWedding8{
+    margin-top: 32vh;
+    margin-left: 15vh;
+    width: 18vh;
+}
+
+.showCaseDisplay2{
+    background-color: rgb(33, 33, 33);
+    height: 100vh;
+}
+.showCaseDisplay2.pictureSections{
+    margin-top: 20vh;
+}
+
+

@@ -1,10 +1,11 @@
 .about{    
     position:absolute;
     top: 200vh;
-    background-color: gray;
+    background-color: rgb(33, 33, 33);
     height: 100vh;
     display:grid;
     grid-template-columns: 39.5vw 59.5vw;
+    z-index: 5;
 }
 .aboutImage{
     padding-top: 10vh;
