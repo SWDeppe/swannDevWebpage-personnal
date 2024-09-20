@@ -10,22 +10,30 @@
     text-align: right;
     padding-right: 5vw;
 }
-.showCaseDisplay  {
+.showCaseDisplay1  {
     width: 100vw;
     height: 80vh;
-    display: grid;
-    grid-template-columns: auto auto auto;
+    display: flex;
+    justify-content: space-around;
     grid-template-rows: 60vh;
+    margin-left: -10vw;
 }
 .pictureSections{
-    margin-left: 10vh;
     margin-top: 10vh;
     transition-duration: 0.5s;
     font-size: 3vh;
+    margin:  10vh 10vw 0 10vw;
 }
 .pictureSections:hover  {
-    scale: 120%;
+    scale: 110%;
 }
+.pictureSections:hover>.imgPortfolio{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    }
+.imgPortfolio{
+    transition: 0.5s;
+}
+
 .imgWedding{
     position:absolute;
 }
@@ -80,11 +88,104 @@
     margin-top: 32vh;
     margin-left: 15vh;
     width: 18vh;
+    z-index: 0;
 }
+
+.fashionSection:hover{
+    z-index: 100;
+}
+.imgFashion{
+    position: absolute;
+    margin-top: -32vh;
+    width: 20vh;
+}
+.imgFashion1{
+    margin-top: -22vh;
+    margin-left: 8vh;
+    width: 25vh;
+    z-index: -4;
+}
+.imgFashion2{
+    margin-top: -19vh;
+    margin-left: 28vh;
+    width: 25vh;
+    z-index: -1;
+}
+.imgFashion3{
+    margin-top: -3vh;
+    margin-left: -10vh;
+    width: 25vh;
+    z-index: -3;
+}
+.imgFashion4{
+    margin-top: 3vh;
+    margin-left: 10vh;
+    width: 20vh;
+    z-index: 0;
+}
+.imgFashion5{
+    margin-top: 20vh;
+    margin-left:25vh;
+    width: 24vh;
+    z-index: 0;
+}
+
+
+.imgPersonal{
+    position: absolute;
+}
+.imgPersonal1{
+    margin-top: -18vh;
+    margin-left:8vh;
+    width: 25vh;
+    z-index: -1;
+}
+.imgPersonal2{
+    margin-top: -13vh;
+    margin-left:27.5vh;
+    width: 25vh;
+    z-index: 0;
+}
+.imgPersonal3{
+    margin-top: -3vh;
+    margin-left: -14vh;
+    width: 25vh;
+    z-index: 0;
+}
+.imgPersonal4{
+    margin-top: 0vh;
+    margin-left: 6vh;
+    width: 34vh;
+    z-index: 1;
+}
+.imgPersonal5{
+    margin-top: 16vh;
+    margin-left: 31vh;
+    width: 20vh;
+    z-index: 1;
+}
+.imgPersonal6{
+    margin-top: 20vh;
+    margin-left: -5vh;
+    width: 27vh;
+    z-index: 1;
+}
+.imgPersonal7{
+    margin-top: 28vh;
+    margin-left: 17vh;
+    width: 17vh;
+    z-index: 1;
+}
+
 
 .showCaseDisplay2{
     background-color: rgb(33, 33, 33);
+    width: 110vw;
     height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    grid-template-rows: 60vh;
+    margin-left: -10vw;
 }
 .showCaseDisplay2.pictureSections{
     margin-top: 20vh;
