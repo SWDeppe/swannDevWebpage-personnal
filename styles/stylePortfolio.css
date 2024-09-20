@@ -19,10 +19,9 @@
     margin-left: -10vw;
 }
 .pictureSections{
-    margin-top: 10vh;
     transition-duration: 0.5s;
     font-size: 3vh;
-    margin:  10vh 10vw 0 10vw;
+    padding:  10vh 10vw 0 10vw;
 }
 .pictureSections:hover  {
     scale: 110%;
