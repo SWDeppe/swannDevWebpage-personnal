@@ -180,11 +180,12 @@
 
 .showCaseDisplay2{
     background-color: rgb(33, 33, 33);
-    width: 110vw;
+    width: 100vw;
     height: 100vh;
     display: flex;
     justify-content: space-around;
     grid-template-rows: 60vh;
+    padding-right: 10vw;
     margin-left: -10vw;
 }
 .showCaseDisplay2.pictureSections{
@@ -200,9 +201,70 @@
     z-index: 1;
 }
 .imgStreet2{
-    margin-top: -1vh;
-    margin-left: 7vh;
+    margin-top: -3vh;
+    margin-left: -3vh;
     width: 25vh;
+    z-index: 1;
+}
+.imgStreet3{
+    margin-top: 18vh;
+    margin-left: -4vh;
+    width: 35vh;
+    z-index: 1;
+}
+.imgStreet4{
+    margin-top: 28vh;
+    margin-left: 19vh;
+    width: 37vh;
+    z-index: 1;
+}
+.imgStreet5{
+    margin-top: 37vh;
+    margin-left: 2vh;
+    width: 20vh;
+    z-index: 1;
+}
+.imgStreet6{
+    margin-top: 47vh;
+    margin-left: 27vh;
+    width: 25vh;
+    height: 25vh;
+    z-index: 1;
+    object-fit: cover;
+    object-position: top;
+}
+
+.imgBusiness{
+    position: absolute;
+}
+.imgBusiness1{
+    margin-top: -7vh;
+    margin-left: 17vh;
+    width: 27vh;
+    z-index: 1;
+}
+.imgBusiness2{
+    margin-top: -3vh;
+    margin-left: -6vh;
+    width: 25vh;
+    z-index: 1;
+}
+.imgBusiness3{
+    margin-top: 15vh;
+    margin-left: 25vh;
+    width: 25vh;
+    z-index: 1;
+}
+.imgBusiness4{
+    margin-top: 25vh;
+    margin-left: 2vh;
+    width: 25vh;
+    z-index: 1;
+}
+.imgBusiness5{
+    margin-top: 39vh;
+    margin-left: 20vh;
+    width: 27vh;
     z-index: 1;
 }
 
