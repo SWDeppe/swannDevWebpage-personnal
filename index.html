@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>brunlees</title>
+    
     <link rel="icon" type="image/png"  href="inports/images/logos/2.png">
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/styleHeader.css">
@@ -12,6 +13,8 @@
     <link rel="stylesheet" href="styles/stylePortfolio.css">
     <link rel="stylesheet" href="styles/styleFeedback.css">
     <link rel="stylesheet" href="styles/styleContact.css">
+    <script src="script.js"></script>
+
 
     <!--Font link for Franklin-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -93,9 +96,10 @@
         
         <div class="showCase" loading="lazy">
             <h1 class="portfolioTitle" >Body of work</h1>
-            <div class="showCaseDisplay showCaseDisplay1">
-                
-                <div class="pictureSections">
+            <button class="portfolioToLeft" onclick="changeSliderArreyNumLeft()">&#8612;</button>
+            <button class="portfolioToRight" onclick="changeSliderArreyNumRight()">&#8614;</button>              
+            <div class="showCaseDisplay showCaseDisplay1" >
+                <div class="pictureSections weddingSection" id="sections">
                     <h3 class="weddingsTitle">Weddings</h3>
                     <img src="inports/images/pictures/portfolio/weddings/wedding2.webp" alt="" class="imgWedding2 imgWedding imgPortfolio" >
                     <img src="inports/images/pictures/portfolio/weddings/wedding1.webp" alt="" class="imgWedding1 imgWedding imgPortfolio" >
@@ -106,7 +110,7 @@
                     <img src="inports/images/pictures/portfolio/weddings/wedding7.webp" alt="" class="imgWedding7 imgWedding imgPortfolio" >
                     <img src="inports/images/pictures/portfolio/weddings/wedding8.webp" alt="" class="imgWedding8 imgWedding imgPortfolio">
                 </div>
-                <div class="pictureSections fashionSection">
+                <div class="pictureSections fashionSection" id="sections">
                     <h3 class="fashionTitle">Fashion</h3>
                     <img src="inports/images/pictures/portfolio/fashion/fashion1.webp" alt="" class="imgFashion imgFashion1 imgPortfolio">
                     <img src="inports/images/pictures/portfolio/fashion/fashion2.webp" alt="" class="imgFashion imgFashion2 imgPortfolio">
@@ -114,7 +118,7 @@
                     <img src="inports/images/pictures/portfolio/fashion/fashion4.webp" alt="" class="imgFashion imgFashion4 imgPortfolio">
                     <img src="inports/images/pictures/portfolio/fashion/fashion5.webp" alt="" class="imgFashion imgFashion5 imgPortfolio">
                 </div>
-                <div class="pictureSections">
+                <div class="pictureSections personalSection" id="sections">
                     <h3 class="personalTiltle">Personal</h3>
                     <img src="inports/images/pictures/portfolio/personal/personal1.webp" alt="" class="imgPersonal imgPersonal1 imgPortfolio">
                     <img src="inports/images/pictures/portfolio/personal/personal2.webp" alt="" class="imgPersonal imgPersonal2 imgPortfolio">
@@ -124,9 +128,12 @@
                     <img src="inports/images/pictures/portfolio/personal/personal6.webp" alt="" class="imgPersonal imgPersonal6 imgPortfolio">
                     <img src="inports/images/pictures/portfolio/personal/personal7.webp" alt="" class="imgPersonal imgPersonal7 imgPortfolio">
                 </div>
+                
             </div>
+            <button class="portfolioToLeft" onclick="changeSliderArreyNumLeft()">&#8612;</button>
+            <button class="portfolioToRight" onclick="changeSliderArreyNumRight()">&#8614;</button> 
             <div class="showCaseDisplay showCaseDisplay2">
-                <div class="pictureSections">
+                <div class="pictureSections streetSection" id="sectionsDisp">
                     <h3 class="streetTitle">Street</h3>
                     <img src="inports/images/pictures/portfolio/street/street1.webp" alt="" class="imgStreet imgStreet1 imgPortfolio">
                     <img src="inports/images/pictures/portfolio/street/street2.webp" alt="" class="imgStreet imgStreet2 imgPortfolio">
@@ -135,7 +142,7 @@
                     <img src="inports/images/pictures/portfolio/street/street5.webp" alt="" class="imgStreet imgStreet5 imgPortfolio">
                     <img src="inports/images/pictures/portfolio/street/street6.webp" alt="" class="imgStreet imgStreet6 imgPortfolio">
                 </div>
-                <div class="pictureSections">
+                <div class="pictureSections businessSection" id="sectionsDisp">
                     <h3 class="businessTitle">Business</h3>
                     <img src="inports/images/pictures/portfolio/buisness/business1.webp" alt="" class="imgBusiness imgBusiness1 imgPortfolio">
                     <img src="inports/images/pictures/portfolio/buisness/business2.webp" alt="" class="imgBusiness imgBusiness2 imgPortfolio">
@@ -144,7 +151,7 @@
                     <img src="inports/images/pictures/portfolio/buisness/business5.webp" alt="" class="imgBusiness imgBusiness5 imgPortfolio">
                     
                 </div>
-                <div class="pictureSections">
+                <div class="pictureSections partySection" id="sectionsDisp">
                     <h3 class="partyTitle">Party</h3>
                     <img src="inports/images/pictures/portfolio/party/party1.webp" alt="" class="imgParty imgParty1 imgPortfolio">
                     <img src="inports/images/pictures/portfolio/party/party2.webp" alt="" class="imgParty imgParty2 imgPortfolio">
@@ -205,4 +212,5 @@
         </footer>
     </div>
 </body>
+
 </html>
