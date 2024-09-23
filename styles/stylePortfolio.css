@@ -4,6 +4,7 @@
     height: 100vh;
 }
 .portfolioTitle{
+    height: 15vh;
     margin: 5vh 5vh 0 5vh;
     font-weight: 700;
     font-size: 13vh;
@@ -189,7 +190,7 @@
     margin-left: -10vw;
 }
 .showCaseDisplay2.pictureSections{
-    margin-top: 20vh;
+    padding-top: 5VH;
 }
 .imgStreet{
     position: absolute;
@@ -213,7 +214,7 @@
     z-index: 1;
 }
 .imgStreet4{
-    margin-top: 28vh;
+    margin-top: 30vh;
     margin-left: 19vh;
     width: 37vh;
     z-index: 1;
@@ -266,5 +267,39 @@
     margin-left: 20vh;
     width: 27vh;
     z-index: 1;
+}
+
+.imgParty{
+    position: absolute;
+}
+.imgParty1{
+    margin-top: -3vh;
+    margin-left: -1vh;
+    width: 42vh;
+    z-index: 0;
+}
+.imgParty2{
+    margin-top: 15vh;
+    margin-left: 26vh;
+    width: 20vh;
+    z-index: 2;
+}
+.imgParty3{
+    margin-top: 20vh;
+    margin-left: 8vh;
+    width: 22vh;
+    z-index: 2;
+}
+.imgParty4{
+    margin-top: 22vh;
+    margin-left: -14vh;
+    width: 25vh;
+    z-index: 0;
+}
+.imgParty5{
+    margin-top: 47vh;
+    margin-left: 5vh;
+    width: 35vh;
+    z-index: 2;
 }
 

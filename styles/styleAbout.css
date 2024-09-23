@@ -18,11 +18,12 @@
     color: white;
     padding-top: 10vh;
     display: grid;
-    grid-template-rows: 30vh 50vh;
+    grid-template-rows: auto auto;
 
     overflow-y: auto;
     scrollbar-color: white grey;
 }
+
 .aboutTitle{
     font-weight: 700;
 }
@@ -30,3 +31,4 @@
     font-size: 2.2vh;
     padding-right: 5vw;
 }
+

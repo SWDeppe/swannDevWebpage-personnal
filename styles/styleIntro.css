@@ -16,7 +16,7 @@
     padding-left: 5vw;
     text-align: left;
     padding-top: 10vh
-};
+}
 .introImageContainer{
     width: 50vw;
     display: inline-block;
@@ -27,4 +27,14 @@
    height: 80vh; 
     object-position: top;
    object-fit:cover;
+}
+@media(max-width: 900px) {
+    .introTextContainer{
+        font-size: 1.8vw;
+    }
+}
+@media(max-width: 500px) {
+    .introTextContainer{
+        font-size: 2.5vw;
+    }
 }
