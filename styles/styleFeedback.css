@@ -38,8 +38,13 @@
     margin-top: 1vh;
     font-size: 2vw;
 }
-@media(max-width: 800){
+@media(max-width: 500px){
     .fedbackTitle{
-        font-size: 5vw;
+        font-size: 7vw;
+    }
+}
+@media(max-width: 200px){
+    .fedbackTitle{
+        font-size: 10vw;
     }
 }

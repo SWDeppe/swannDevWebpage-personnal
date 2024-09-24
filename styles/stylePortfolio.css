@@ -405,7 +405,7 @@
             scale:20%
         }
         .portfolioTitle{
-            font-size: 4vw;
+            font-size: 10vw;
         }
     }
     @media(max-width: 100px){

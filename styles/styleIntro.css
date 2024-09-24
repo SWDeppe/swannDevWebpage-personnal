@@ -16,7 +16,8 @@
     width: 30vw;
     padding-left: 5vw;
     text-align: left;
-    padding-top: 10vh
+    padding-top: 10vh;
+    overflow-x: auto;
 }
 .introImageContainer{
     width: 50vw;
