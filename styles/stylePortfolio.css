@@ -320,7 +320,30 @@
 .portfolioToLeft{
     display: none;
 }
-
+@media(max-width: 850px){
+    .pictureSections{
+        scale: 70%
+    }
+    .pictureSections:hover{
+        scale:75%
+    }
+}
+@media(max-width: 550px){
+    .pictureSections{
+        scale: 60%
+    }
+    .pictureSections:hover{
+        scale:65%
+    }
+}
+@media(max-width: 450px){
+    .pictureSections{
+        scale: 50%
+    }
+    .pictureSections:hover{
+        scale:55%
+    }
+}
 @media(hover:none){
     .portfolioToLeft{
         position: relative;
