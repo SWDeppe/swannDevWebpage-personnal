@@ -33,12 +33,22 @@
     font-size: 1vw;
     padding-right: 5vw;
 }
-@media(max-width: 250px){
+
+@media(max-width: 500px){
     .aboutTitle{
         font-size: 3.5vw;
     }
     .aboutText{
         font-size: 2vw;
+
+    }
+}
+@media(max-width: 150px){
+    .aboutTitle{
+        font-size: 5vw;
+    }
+    .aboutText{
+        font-size: 3vw;
 
     }
 }
