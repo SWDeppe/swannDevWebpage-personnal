@@ -40,10 +40,11 @@
     text-align: justify;
     margin-bottom: 5px;
     transition: 0.6s;
+    font-size: 2vw;
 }
 .toPortfolioArrow{
-    margin-left: 100px;
-    font-size: 20px;
+    margin-left: 10vw;
+    /*font-size: 5vw;*/
 }
 .toPortfolio:hover{
     background-color: white;
@@ -51,7 +52,7 @@
     text-decoration: none;
     border-radius: 5px;
     padding:10px 10px 10px 10px;
-    font-size: larger;
+    scale: 110%;
 }
 .logoInHeader{
     position:absolute;
@@ -65,7 +66,8 @@
         display: none;
     }
     .headerText{
-        left: 10vw;
+        left: 5vw;
+        width: 80vw;
     }
     .headerTitle{
         font-size: 10vw;
