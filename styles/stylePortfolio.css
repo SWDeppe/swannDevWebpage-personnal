@@ -386,14 +386,23 @@
     .showCaseDisplay1{
         margin-bottom: -20vh;
     }
+    .pictureSections:hover{
+        scale:50%
+    }
     @media(max-width: 250px){
         .pictureSections{
             scale: 30%
+        }
+        .pictureSections:hover{
+            scale:30%
         }
     }
     @media(max-width: 150px){
         .pictureSections{
             scale: 20%
+        }
+        .pictureSections:hover{
+            scale:20%
         }
         .portfolioTitle{
             font-size: 4vw;
@@ -402,6 +411,9 @@
     @media(max-width: 100px){
         .pictureSections{
             scale: 10%
+        }
+        .pictureSections:hover{
+            scale:10%
         }
     }
 }
