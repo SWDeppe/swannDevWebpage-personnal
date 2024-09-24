@@ -335,6 +335,7 @@
         padding: 0;
         background: none;
         transition: 0.3s;
+        color: black;
     }
     .portfolioToLeft:active{
         scale:120%;
@@ -355,6 +356,7 @@
         padding: 0;
         background: none;
         transition: 0.3s;
+        color: black
     }
     .portfolioToRight:active{
         scale:120%;
