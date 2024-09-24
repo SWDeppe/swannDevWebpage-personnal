@@ -81,7 +81,7 @@ footer{
     height: 80vh;
     z-index: -9;
 }
-@media(max-width: 800px){
+@media(max-width: 600px){
     .logoInContacts{
         display: none;}
     .contactSocialLogo{
@@ -101,5 +101,8 @@ footer{
     }
     .contactJoinLogo2{
         width: 3vw;
+    }
+    .contactJoinLinks{
+        font-size: 3vw;
     }
 }
