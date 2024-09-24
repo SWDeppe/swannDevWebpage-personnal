@@ -11,7 +11,7 @@
 .contactTitle{
     font-weight: 500;
     width: 40vw;
-    font-size: 10vh;
+    font-size: 7vw;
     text-align: left;
     margin: 0;
     padding-left: 2vw;
@@ -46,7 +46,7 @@
     align-items: center;
 }
 .contactSocialLogo{
-    height: 50px;
+    height: 5vw;
     border-radius: 50%;
     margin: 1vw;
     transition: 0.5s;
@@ -64,6 +64,7 @@ footer{
     position: absolute;
     padding-left: 2vw;
     bottom: 1vh;
+    font-size: 1.5vw;
 }
 .logoInContacts{
     position:absolute;
@@ -75,4 +76,16 @@ footer{
 @media(max-width: 800px){
     .logoInContacts{
         display: none;}
+    .contactSocialLogo{
+        height: 10vw;
+    }
+    .joinTitle{
+        font-size: 8vw;
+    }
+    .socialTitle{
+        font-size: 8vw;
+    }
+    .contactTitle{
+        font-size: 10vw;
+    }
 }

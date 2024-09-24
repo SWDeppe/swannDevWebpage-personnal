@@ -6,6 +6,7 @@
     display:grid;
     grid-template-columns: 39.5vw 59.5vw;
     z-index: 5;
+    font-size: 2vw;
 }
 .aboutImage{
     padding-top: 10vh;

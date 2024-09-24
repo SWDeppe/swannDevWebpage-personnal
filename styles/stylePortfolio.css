@@ -324,9 +324,9 @@
         position: relative;
         display: inline-block;
         border: none;
-        font-size: 5vw;
+        font-size: 10vw;
         height: 10vh;
-        width: 5vw;
+        width: 10vw;
         top:45vh;
         left:5vw;
         z-index: 100;
@@ -339,34 +339,16 @@
         background-color: black;
         color: white;
     }
-    .portfolioToLeft{
-        position: relative;
-        display: inline-block;
-        border: none;
-        font-size: 5vw;
-        height: 10vh;
-        width: 5vw;
-        top:45vh;
-        left:5vw;
-        z-index: 100;
-        padding: 0;
-        background: none;
-        transition: 0.3s;
-    }
-    .portfolioToLeft:active{
-        scale:120%;
-        background-color: black;
-        color: white;
-    }
+
     .portfolioToRight{
         position:relative;
         display: inline-block;
         border: none;
-        font-size: 5vw;
+        font-size: 10vw;
         top:45vh;
-        left:85vw;
+        left:75vw;
         height: 10vh;
-        width: 5vw;
+        width: 10vw;
         z-index: 100;
         padding: 0;
         background: none;
@@ -396,13 +378,17 @@
     .businessSection{
         display: none;
     }
-    .streetSection{
-        scale:75%;
-    }
     .pictureSections{
         margin-left: -17vw;
+        scale: 50%;
+        margin-left: -10vw;
     }
     .showCaseDisplay1{
-        margin-bottom: -10vh;
+        margin-bottom: -20vh;
+    }
+    @media(max-width: 250px){
+        .pictureSections{
+            scale: 30%
+        }
     }
 }

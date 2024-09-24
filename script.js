@@ -37,7 +37,7 @@ function changeSliderArreyNumLeft(){
     arreyNumDisp2None2 -= 1;
     if(arreyNum < 0 || arreyNum2 < 3){
         arreyNum = 2;
-        arreyNum = 5;
+        arreyNum2 = 5;
     }
     if(arreyNumDispNone1 < 0 || arreyNumDisp2None1 < 3){
         arreyNumDispNone1 = 2;
@@ -48,20 +48,17 @@ function changeSliderArreyNumLeft(){
         arreyNumDisp2None2 = 5;
 
     }
+    console.log(arreyNum)
     lookIfIsPhone();
 }
 function lookIfIsPhone(){
     if (window.matchMedia('(hover: none)').matches) {
         const sliderItems = document.querySelectorAll('.pictureSections');
         console.log("No hover capability detected (e.g., touch screen).");
-        sliderItems[arreyNum].style.padding = "15vh 0 0 0";
-        sliderItems[arreyNum].style.scale = "75%";
         sliderItems[arreyNum].style.display = "inline-block";
         sliderItems[arreyNumDispNone1].style.display = "none";
         sliderItems[arreyNumDispNone2].style.display = "none";
         
-        sliderItems[arreyNum2].style.padding = "15vh 0 0 0";
-        sliderItems[arreyNum2].style.scale = "75%";
         sliderItems[arreyNum2].style.display = "inline-block";
         sliderItems[arreyNumDisp2None1].style.display = "none";
         sliderItems[arreyNumDisp2None2].style.display = "none";

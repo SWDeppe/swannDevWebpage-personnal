@@ -3,5 +3,6 @@ body{
     font-family: "Libre Franklin", sans-serif;
     overflow-x: hidden;
     background-color: lightgray;
+    width: 100vw;
 }
 
