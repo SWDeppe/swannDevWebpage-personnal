@@ -320,15 +320,16 @@
 .portfolioToLeft{
     display: none;
 }
-@media(max-width: 850px){
+@media(max-width: 600px){
     .pictureSections{
-        scale: 70%
+        scale: 80%
     }
     .pictureSections:hover{
-        scale:75%
+        scale:85%
     }
 }
-@media(max-width: 550px){
+
+@media(max-width: 400px){
     .pictureSections{
         scale: 60%
     }
@@ -336,7 +337,7 @@
         scale:65%
     }
 }
-@media(max-width: 450px){
+@media(max-width: 350px){
     .pictureSections{
         scale: 50%
     }

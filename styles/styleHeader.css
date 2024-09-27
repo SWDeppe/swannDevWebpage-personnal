@@ -1,5 +1,6 @@
 .header{
     height: 100vh; 
+    z-index: 1;
 }
 .headerBackgroundImage{ 
     height: 100vh; /* For 100% screen height */
@@ -19,6 +20,7 @@
     border-style:solid;
     padding: 1% 1% 50% 1%;
     border-width: 2px;
+    z-index: 2;
 
 }
 .headerCatchPhrase{
@@ -29,13 +31,14 @@
     width: 40vw;
     font-size: 6vw;
     text-align: left;
+    margin: 0 0 20vh 0;
 }
 
 .toPortfolio{
     color: white;
     text-decoration: none;
     display: inline-block;
-    margin-top: 10vh;
+    margin-top: 0vh;
     padding: 5px 5px 5px 5px;
     text-align: justify;
     margin-bottom: 5px;
@@ -61,7 +64,7 @@
     height: 80vh;
 }
 
-@media(max-width: 800px){
+@media(max-width: 450px){
     .logoInHeader{
         display: none;
     }

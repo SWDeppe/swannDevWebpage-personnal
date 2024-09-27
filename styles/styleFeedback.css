@@ -16,9 +16,10 @@
 .feedbackSectionsContainer{
     display: grid;
     
-    grid-template-columns: 50vw 50vw;
-    grid-template-rows: 40vh 40vh;
-    justify-content: space-around;
+    grid-template-columns: 45vw 45vw;
+    grid-template-rows: 60vh;
+    justify-content: center;
+    padding-top: 10vh;
 }
 .feedbackSections{
     display: flex;
@@ -38,13 +39,22 @@
     margin-top: 1vh;
     font-size: 2vw;
 }
+.clientFeedbacks{
+    font-size: 1vw;
+}
 @media(max-width: 500px){
     .fedbackTitle{
         font-size: 7vw;
     }
+    .clientFeedbacks{
+        font-size: 1.35vw;
+    }
 }
-@media(max-width: 200px){
+@media(max-width: 300px){
     .fedbackTitle{
         font-size: 10vw;
+    }
+    .clientFeedbacks{
+        font-size: 1.5vw;
     }
 }
