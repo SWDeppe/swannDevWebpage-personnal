@@ -445,3 +445,149 @@
         }
     }
 }
+@media(hover:none){
+    .portfolioToLeft{
+        position: relative;
+        display: inline-block;
+        border: none;
+        font-size: 10vw;
+        height: 10vh;
+        width: 10vw;
+        top:45vh;
+        left:5vw;
+        z-index: 100;
+        padding: 0;
+        background: none;
+        transition: 0.3s;
+        color: black;
+    }
+    .portfolioToLeft:active{
+        scale:120%;
+        background-color: black;
+        color: white;
+    }
+
+    .portfolioToRight{
+        position:relative;
+        display: inline-block;
+        border: none;
+        font-size: 10vw;
+        top:45vh;
+        left:75vw;
+        height: 10vh;
+        width: 10vw;
+        z-index: 100;
+        padding: 0;
+        background: none;
+        transition: 0.3s;
+        color: black
+    }
+    .portfolioToRight:active{
+        scale:120%;
+        background-color: black;
+        color: white;
+    }
+    .imgPortfolio{
+        opacity: 1;
+        transform: translateX(0);
+    }
+    .portfolioTitle{
+        font-size: 5vh;
+    }
+    .fashionSection{
+        display: none;
+    }
+    .personalSection{
+        display: none;
+    }
+    .partySection{
+        display: none;
+    }
+    .businessSection{
+        display: none;
+    }
+    .pictureSections{
+        margin-left: -17vw;
+        scale: 50%;
+        margin-left: -10vw;
+    }
+    .showCaseDisplay1{
+        margin-bottom: -20vh;
+    }
+    .pictureSections:hover{
+        scale:50%
+    }
+}
+@media(max-width:600px){
+    .portfolioToLeft{
+        position: relative;
+        display: inline-block;
+        border: none;
+        font-size: 10vw;
+        height: 10vh;
+        width: 10vw;
+        top:45vh;
+        left:5vw;
+        z-index: 100;
+        padding: 0;
+        background: none;
+        transition: 0.3s;
+        color: black;
+    }
+    .portfolioToLeft:active{
+        scale:120%;
+        background-color: black;
+        color: white;
+    }
+
+    .portfolioToRight{
+        position:relative;
+        display: inline-block;
+        border: none;
+        font-size: 10vw;
+        top:45vh;
+        left:75vw;
+        height: 10vh;
+        width: 10vw;
+        z-index: 100;
+        padding: 0;
+        background: none;
+        transition: 0.3s;
+        color: black
+    }
+    .portfolioToRight:active{
+        scale:120%;
+        background-color: black;
+        color: white;
+    }
+    .imgPortfolio{
+        opacity: 1;
+        transform: translateX(0);
+    }
+    .portfolioTitle{
+        font-size: 5vh;
+    }
+    .fashionSection{
+        display: none;
+    }
+    .personalSection{
+        display: none;
+    }
+    .partySection{
+        display: none;
+    }
+    .businessSection{
+        display: none;
+    }
+    .pictureSections{
+        margin-left: -17vw;
+        scale: 50%;
+        margin-left: -10vw;
+    }
+    .showCaseDisplay1{
+        margin-bottom: -20vh;
+    }
+    .pictureSections:hover{
+        scale:50%
+    }
+}
