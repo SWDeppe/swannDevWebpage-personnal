@@ -137,28 +137,29 @@ footer{
 }
 @media(max-width: 250px){
     .socialTitle{
-        font-size: 7vw;
+        font-size: 10vw;
         padding-bottom: 5px;
     }
     .contactSocialLogo{
-        width: 10vw;
-        height: 10vw;
+        width: 15vw;
+        height: 15vw;
     }
     .contactTitle{
-        font-size: 12vw;
+        font-size: 15vw;
     }
     .joinInfo{
-        padding-top: 10vh;
-        font-size: 5vw;
+        padding-top: 15vh;
+        font-size: 7vw;
     }
     .contactJoinLinks{
-        font-size: 4vw;
+        font-size: 5vw;
     }
     .contactJoinLinks:hover{
-        font-size: 4.2vw;
-        margin: 1vh;
+        font-size: 5.2vw;
+
     }
 }
+/*
 @media(max-width: 150px){
     .joinInfo{
         padding-top: 20vh;

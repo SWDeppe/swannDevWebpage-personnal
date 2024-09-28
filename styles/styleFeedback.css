@@ -7,54 +7,74 @@
 }
 .fedbackTitle{
     height: 10vh;
-    padding-left: 5vw;
-    padding-top: 5vw;
-    font-size: 5vw;
+    padding:5vh 5vw;
+    font-size: 10vh;
     align-items: center;
     margin: 0;
 }
 .feedbackSectionsContainer{
     display: grid;
-    
+    font-size: auto;
     grid-template-columns: 45vw 45vw;
     grid-template-rows: 60vh;
     justify-content: center;
-    padding-top: 10vh;
 }
 .feedbackSections{
     display: flex;
-    flex-direction:row;
-    flex: 35vw 15vw;
+    align-items: center;
+    height: 80%;
+    width: 45vw;
 }
 .feedbackImages{
     width: 25vw;
+    height: 25vh;
     object-fit: cover;
     margin: 2.5vh 1vw;
     margin-left: 5vw;
 }
 .feedbackClientNames{
-    display:inline;
-    width: 100%;
-    align-items: top;
-    margin-top: 1vh;
-    font-size: 2vw;
+    margin: 0;
+    height:auto;
+    font-size:2vw;
+}
+.feddbackSectionText{
+    height:25vh;
+    padding: 0 2vw;
 }
 .clientFeedbacks{
     font-size: 1vw;
 }
-@media(max-width: 500px){
-    .fedbackTitle{
-        font-size: 7vw;
-    }
-    .clientFeedbacks{
-        font-size: 1.35vw;
-    }
-}
+
+
+
 @media(max-width: 300px){
     .fedbackTitle{
-        font-size: 10vw;
+    height: 5vh;
+    padding:5vh 5vw;
+    font-size: 5vh;
+    padding-bottom: 15vh;
+    }
+    
+    .feedbackSections{
+        
+        flex-direction:column;
+    }
+    
+    .feedbackImages{
+        width: 35vw;
+    }
+    .feedbackClientNames{
+        font-size: 2vh;
+        padding-left: 5vw;
     }
     .clientFeedbacks{
-        font-size: 1.5vw;
+        font-size: 1.5vh;
+    }
+}
+@media(max-width: 150px){
+    .fedbackTitle{
+    height: 2.5vh;
+    font-size: 2.5vh;
+
     }
 }
