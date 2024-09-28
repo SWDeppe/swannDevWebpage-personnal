@@ -322,10 +322,13 @@
 }
 @media(max-width: 600px){
     .pictureSections{
-        scale: 80%
+        scale: 70%
     }
     .pictureSections:hover{
-        scale:85%
+        scale:75%
+    }
+    .portfolioTitle{
+
     }
 }
 
@@ -392,7 +395,7 @@
         transform: translateX(0);
     }
     .portfolioTitle{
-        font-size: 8vh;
+        font-size: 5vh;
     }
     .fashionSection{
         display: none;
