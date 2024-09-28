@@ -514,6 +514,9 @@
     .showCaseDisplay1{
         margin-bottom: -20vh;
     }
+    .showCaseDisplay2{
+        color:white;
+    }
     .pictureSections:hover{
         scale:50%
     }
@@ -586,6 +589,9 @@
     }
     .showCaseDisplay1{
         margin-bottom: -20vh;
+    }
+    .showCaseDisplay2{
+        color:white;
     }
     .pictureSections:hover{
         scale:50%
