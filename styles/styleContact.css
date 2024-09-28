@@ -81,7 +81,7 @@ footer{
     height: 80vh;
     z-index: -9;
 }
-@media(max-width: 600px){
+@media(max-width: 800px){
     .logoInContacts{
         display: none;}
     .socialTitle{
@@ -112,7 +112,7 @@ footer{
         height: 5vw;
     }
 }
-@media(max-width: 450px){
+@media(max-width: 650px){
     .socialTitle{
         font-size: 5vw;
     }
