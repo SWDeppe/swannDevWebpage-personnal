@@ -41,6 +41,11 @@
     transition-duration: 0.3s;
     font-size: 3vh;
     padding:  10vh 10vw 0 10vw;
+    color: black;
+    text-decoration: none;
+}
+.pictureSections2{
+    color: white;
 }
 .pictureSections:hover  {
     scale: 110%;
@@ -378,7 +383,7 @@
         background-color: black;
         color: white;
     }
-
+    
     .portfolioToRight{
         position:relative;
         display: inline-block;
@@ -398,6 +403,9 @@
         scale:120%;
         background-color: black;
         color: white;
+    }
+    .portfolioToPhotoshop{
+        font-size: 2vh;
     }
     .imgPortfolio{
         opacity: 1;
