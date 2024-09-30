@@ -11,6 +11,18 @@
     text-align: right;
     padding-right: 5vw;
 }
+.portfolioToPhotoshop{
+    position:absolute;
+    margin: 0vh 5vh 0 5vh;
+    font-weight: 200;
+    font-size: 2vw;
+    right: 0;
+    top: 1vh;
+    padding-right: 5vw;
+    color: black;
+    text-decoration: none;
+    
+}
 .showCaseDisplay1  {
     width: 100vw;
     height: 80vh;
