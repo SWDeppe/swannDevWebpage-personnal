@@ -1,619 +1,614 @@
-.portfolio{    
-    position:absolute;
-    top: 300vh;
-    height: 100vh;
+.portfolio {
+  position: absolute;
+  top: 300vh;
+  height: 100vh;
 }
-.portfolioTitle{
-    height: 5vh;
-    margin: 5vh 5vh 0 5vh;
-    font-weight: 700;
-    font-size: 5vw;
-    text-align: right;
-    padding-right: 5vw;
+.portfolioTitle {
+  height: 5vh;
+  margin: 5vh 5vh 0 5vh;
+  font-weight: 700;
+  font-size: 5vw;
+  text-align: right;
+  padding-right: 5vw;
 }
-.portfolioToPhotoshop{
-    position:absolute;
-    margin: 0vh 5vh 0 5vh;
-    font-weight: 200;
-    font-size: 2vw;
-    right: 0;
-    top: 1vh;
-    padding-right: 5vw;
-    color: black;
-    text-decoration: none;
-    
+.portfolioToPhotoshop {
+  position: absolute;
+  margin: 0vh 5vh 0 5vh;
+  font-weight: 200;
+  font-size: 2vw;
+  right: 0;
+  top: 1vh;
+  padding-right: 5vw;
+  color: black;
+  text-decoration: none;
 }
-.showCaseDisplay1  {
-    width: 100vw;
-    height: 80vh;
-    display: flex;
-    justify-content: space-around;
-    grid-template-rows: 60vh;
-    margin-left: -10vw;
-    margin-top:10vh
+.showCaseDisplay1 {
+  width: 100vw;
+  height: 80vh;
+  display: flex;
+  justify-content: space-around;
+  grid-template-rows: 60vh;
+  margin-left: -10vw;
+  margin-top: 10vh;
 }
-.portfolio:hover .imgPortfolio{
+.portfolio:hover .imgPortfolio {
+  opacity: 1;
+  transform: translateX(0);
+}
+.pictureSections {
+  transition-duration: 0.3s;
+  font-size: 3vh;
+  color: black;
+  text-decoration: none;
+}
+.pictureSections2 {
+  color: white;
+}
+.pictureSections:hover {
+  scale: 110%;
+}
+.pictureSections:hover > .imgPortfolio {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  image-resolution: 72dpi;
+}
+.imgPortfolio {
+  transition: 0.5s;
+  opacity: 0;
+  transition: transform 1.5s ease, opacity 1.5s ease;
+}
 
+.imgWedding {
+  position: absolute;
+  transform: translateX(-100%);
+}
+.imgWedding1 {
+  margin-top: -32vh;
+  width: 35vh;
+}
+.imgWedding2 {
+  margin-top: -25vh;
+  margin-left: 25vh;
+  width: 38vh;
+  z-index: -2;
+}
+.imgWedding3 {
+  width: 55vh;
+  margin-top: -3vh;
+  z-index: -1;
+}
+.imgWedding4 {
+  margin-top: 2vh;
+  margin-left: -2vh;
+  width: 15vh;
+  height: 20vh;
+  object-fit: cover;
+  object-position: top;
+  z-index: -1;
+}
+.imgWedding5 {
+  margin-top: 8vh;
+  margin-left: 42vh;
+  width: 20vh;
+  height: 30vh;
+  z-index: -1;
+  object-fit: cover;
+  object-position: 80% 80%;
+}
+.imgWedding6 {
+  margin-top: 30vh;
+  margin-left: -2vh;
+  width: 20vh;
+  height: 20vh;
+  z-index: -1;
+  object-fit: cover;
+}
+.imgWedding7 {
+  margin-top: 28.12vh;
+  margin-left: 30vh;
+  width: 23vh;
+  z-index: -1;
+}
+.imgWedding8 {
+  margin-top: 32vh;
+  margin-left: 15vh;
+  width: 18vh;
+  z-index: 0;
+}
+
+.fashionSection:hover {
+  z-index: 100;
+}
+.imgFashion {
+  position: absolute;
+}
+.imgFashion1 {
+  margin-top: -22vh;
+  margin-left: 8vh;
+  width: 25vh;
+  z-index: -4;
+}
+.imgFashion2 {
+  margin-top: -19vh;
+  margin-left: 28vh;
+  width: 25vh;
+  z-index: -1;
+}
+.imgFashion3 {
+  margin-top: -3vh;
+  margin-left: -10vh;
+  width: 25vh;
+  z-index: -3;
+}
+.imgFashion4 {
+  margin-top: 3vh;
+  margin-left: 10vh;
+  width: 20vh;
+  z-index: 0;
+}
+.imgFashion5 {
+  margin-top: 20vh;
+  margin-left: 25vh;
+  width: 24vh;
+  z-index: 0;
+}
+
+.imgPersonal {
+  position: absolute;
+  transform: translateX(100%);
+}
+.imgPersonal1 {
+  margin-top: -18vh;
+  margin-left: 8vh;
+  width: 25vh;
+  z-index: -1;
+}
+.imgPersonal2 {
+  margin-top: -13vh;
+  margin-left: 27.5vh;
+  width: 25vh;
+  z-index: 0;
+}
+.imgPersonal3 {
+  margin-top: -3vh;
+  margin-left: -14vh;
+  width: 25vh;
+  z-index: 0;
+}
+.imgPersonal4 {
+  margin-top: 0vh;
+  margin-left: 6vh;
+  width: 34vh;
+  z-index: 1;
+}
+.imgPersonal5 {
+  margin-top: 16vh;
+  margin-left: 31vh;
+  width: 20vh;
+  z-index: 1;
+}
+.imgPersonal6 {
+  margin-top: 20vh;
+  margin-left: -5vh;
+  width: 27vh;
+  z-index: 1;
+}
+.imgPersonal7 {
+  margin-top: 28vh;
+  margin-left: 17vh;
+  width: 17vh;
+  z-index: 1;
+}
+
+.showCaseDisplay2 {
+  background-color: rgb(33, 33, 33);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  grid-template-rows: 60vh;
+  padding-right: 10vw;
+  margin-left: -10vw;
+}
+.showCaseDisplay2.pictureSections {
+  padding-top: 5vh;
+}
+.imgStreet {
+  position: absolute;
+  transform: translateX(-100%);
+}
+.imgStreet1 {
+  margin-top: -10vh;
+  margin-left: 17vh;
+  width: 25vh;
+  z-index: 1;
+}
+.imgStreet2 {
+  margin-top: -3vh;
+  margin-left: -3vh;
+  width: 25vh;
+  z-index: 1;
+}
+.imgStreet3 {
+  margin-top: 18vh;
+  margin-left: -4vh;
+  width: 35vh;
+  z-index: 1;
+}
+.imgStreet4 {
+  margin-top: 30vh;
+  margin-left: 19vh;
+  width: 37vh;
+  z-index: 1;
+}
+.imgStreet5 {
+  margin-top: 37vh;
+  margin-left: 2vh;
+  width: 20vh;
+  z-index: 1;
+}
+.imgStreet6 {
+  margin-top: 47vh;
+  margin-left: 27vh;
+  width: 25vh;
+  height: 25vh;
+  z-index: 1;
+  object-fit: cover;
+  object-position: top;
+}
+
+.imgBusiness {
+  position: absolute;
+}
+.imgBusiness1 {
+  margin-top: -7vh;
+  margin-left: 17vh;
+  width: 27vh;
+  z-index: 1;
+}
+.imgBusiness2 {
+  margin-top: -3vh;
+  margin-left: -6vh;
+  width: 25vh;
+  z-index: 1;
+}
+.imgBusiness3 {
+  margin-top: 15vh;
+  margin-left: 25vh;
+  width: 25vh;
+  z-index: 1;
+}
+.imgBusiness4 {
+  margin-top: 25vh;
+  margin-left: 2vh;
+  width: 25vh;
+  z-index: 1;
+}
+.imgBusiness5 {
+  margin-top: 39vh;
+  margin-left: 20vh;
+  width: 27vh;
+  z-index: 1;
+}
+
+.imgParty {
+  position: absolute;
+  transform: translateX(100%);
+}
+.imgParty1 {
+  margin-top: -3vh;
+  margin-left: -1vh;
+  width: 42vh;
+  z-index: 0;
+}
+.imgParty2 {
+  margin-top: 15vh;
+  margin-left: 26vh;
+  width: 20vh;
+  z-index: 2;
+}
+.imgParty3 {
+  margin-top: 20vh;
+  margin-left: 8vh;
+  width: 22vh;
+  z-index: 2;
+}
+.imgParty4 {
+  margin-top: 22vh;
+  margin-left: -14vh;
+  width: 25vh;
+  z-index: 0;
+}
+.imgParty5 {
+  margin-top: 47vh;
+  margin-left: 5vh;
+  width: 35vh;
+  z-index: 2;
+}
+.portfolioToRight {
+  display: none;
+}
+.portfolioToLeft {
+  display: none;
+}
+@media (max-width: 600px) {
+  .pictureSections {
+    scale: 70%;
+  }
+  .pictureSections:hover {
+    scale: 75%;
+  }
+}
+
+@media (max-width: 400px) {
+  .pictureSections {
+    scale: 60%;
+  }
+  .pictureSections:hover {
+    scale: 65%;
+  }
+}
+@media (max-width: 350px) {
+  .pictureSections {
+    scale: 50%;
+  }
+  .pictureSections:hover {
+    scale: 55%;
+  }
+}
+@media (hover: none) {
+  .portfolioToLeft {
+    position: relative;
+    display: inline-block;
+    border: none;
+    font-size: 10vw;
+    height: 10vh;
+    width: 10vw;
+    top: 45vh;
+    left: 5vw;
+    z-index: 100;
+    padding: 0;
+    background: none;
+    transition: 0.3s;
+    color: black;
+  }
+  .portfolioToLeft:active {
+    scale: 120%;
+    background-color: black;
+    color: white;
+  }
+
+  .portfolioToRight {
+    position: relative;
+    display: inline-block;
+    border: none;
+    font-size: 10vw;
+    top: 45vh;
+    left: 75vw;
+    height: 10vh;
+    width: 10vw;
+    z-index: 100;
+    padding: 0;
+    background: none;
+    transition: 0.3s;
+    color: black;
+  }
+  .portfolioToRight:active {
+    scale: 120%;
+    background-color: black;
+    color: white;
+  }
+  .portfolioToPhotoshop {
+    font-size: 2vh;
+  }
+  .imgPortfolio {
     opacity: 1;
     transform: translateX(0);
-}
-.pictureSections{
-    transition-duration: 0.3s;
-    font-size: 3vh;
-    padding:  10vh 10vw 0 10vw;
-    color: black;
-    text-decoration: none;
-}
-.pictureSections2{
-    color: white;
-}
-.pictureSections:hover  {
-    scale: 110%;
-}
-.pictureSections:hover>.imgPortfolio{
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-    image-resolution: 72dpi;
-}
-.imgPortfolio{
-    transition: 0.5s;
-    opacity: 0;
-    transition: transform 1.5s ease, opacity 1.5s ease;
-}
-
-
-.imgWedding{
-    position:absolute;
-    transform: translateX(-100%);
-}
-.imgWedding1{
-    margin-top: -32vh;
-    width: 35vh;
-}
-.imgWedding2{
-    margin-top: -25vh;
-    margin-left: 25vh;
-    width: 38vh;
-    z-index: -2;
-}
-.imgWedding3{
-    width: 55vh;
-    margin-top: -3vh;
-    z-index: -1;
-}
-.imgWedding4{
-    margin-top: 2vh;
-    margin-left: -2vh;
-    width: 15vh;
-    height: 20vh;
-    object-fit: cover;
-    object-position: top;
-    z-index: -1;
-}
-.imgWedding5{
-    margin-top: 8vh;
-    margin-left: 42vh;
-    width: 20vh;
-    height: 30vh;
-    z-index: -1;
-    object-fit: cover;
-    object-position: 80% 80%;
-}
-.imgWedding6{
-    margin-top: 30vh;
-    margin-left: -2vh;
-    width: 20vh;
-    height: 20vh;
-    z-index: -1;
-    object-fit: cover;
-}
-.imgWedding7{
-    margin-top: 28.12vh;
-    margin-left: 30vh;
-    width: 23vh;
-    z-index: -1;
-}
-.imgWedding8{
-    margin-top: 32vh;
-    margin-left: 15vh;
-    width: 18vh;
-    z-index: 0;
-}
-
-.fashionSection:hover{
-    z-index: 100;
-}
-.imgFashion{
-    position: absolute;
-}
-.imgFashion1{
-    margin-top: -22vh;
-    margin-left: 8vh;
-    width: 25vh;
-    z-index: -4;
-}
-.imgFashion2{
-    margin-top: -19vh;
-    margin-left: 28vh;
-    width: 25vh;
-    z-index: -1;
-}
-.imgFashion3{
-    margin-top: -3vh;
-    margin-left: -10vh;
-    width: 25vh;
-    z-index: -3;
-}
-.imgFashion4{
-    margin-top: 3vh;
-    margin-left: 10vh;
-    width: 20vh;
-    z-index: 0;
-}
-.imgFashion5{
-    margin-top: 20vh;
-    margin-left:25vh;
-    width: 24vh;
-    z-index: 0;
-}
-
-
-.imgPersonal{
-    position: absolute;
-    transform: translateX(100%);
-}
-.imgPersonal1{
-    margin-top: -18vh;
-    margin-left:8vh;
-    width: 25vh;
-    z-index: -1;
-}
-.imgPersonal2{
-    margin-top: -13vh;
-    margin-left:27.5vh;
-    width: 25vh;
-    z-index: 0;
-}
-.imgPersonal3{
-    margin-top: -3vh;
-    margin-left: -14vh;
-    width: 25vh;
-    z-index: 0;
-}
-.imgPersonal4{
-    margin-top: 0vh;
-    margin-left: 6vh;
-    width: 34vh;
-    z-index: 1;
-}
-.imgPersonal5{
-    margin-top: 16vh;
-    margin-left: 31vh;
-    width: 20vh;
-    z-index: 1;
-}
-.imgPersonal6{
-    margin-top: 20vh;
-    margin-left: -5vh;
-    width: 27vh;
-    z-index: 1;
-}
-.imgPersonal7{
-    margin-top: 28vh;
-    margin-left: 17vh;
-    width: 17vh;
-    z-index: 1;
-}
-
-
-.showCaseDisplay2{
-    background-color: rgb(33, 33, 33);
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    justify-content: space-around;
-    grid-template-rows: 60vh;
-    padding-right: 10vw;
+  }
+  .portfolioTitle {
+    font-size: 5vh;
+  }
+  .fashionSection {
+    display: none;
+  }
+  .personalSection {
+    display: none;
+  }
+  .partySection {
+    display: none;
+  }
+  .businessSection {
+    display: none;
+  }
+  .pictureSections {
+    margin-left: -17vw;
+    scale: 50%;
     margin-left: -10vw;
+  }
+  .showCaseDisplay1 {
+    margin-bottom: -20vh;
+  }
+  .pictureSections:hover {
+    scale: 50%;
+  }
+  @media (max-width: 250px) {
+    .pictureSections {
+      scale: 30%;
+    }
+    .pictureSections:hover {
+      scale: 30%;
+    }
+  }
+  @media (max-width: 150px) {
+    .pictureSections {
+      scale: 20%;
+    }
+    .pictureSections:hover {
+      scale: 20%;
+    }
+    .portfolioTitle {
+      font-size: 10vw;
+    }
+  }
+  @media (max-width: 100px) {
+    .pictureSections {
+      scale: 10%;
+    }
+    .pictureSections:hover {
+      scale: 10%;
+    }
+  }
 }
-.showCaseDisplay2.pictureSections{
-    padding-top: 5VH;
-}
-.imgStreet{
-    position: absolute;
-    transform: translateX(-100%);
-}
-.imgStreet1{
-    margin-top: -10vh;
-    margin-left: 17vh;
-    width: 25vh;
-    z-index: 1;
-}
-.imgStreet2{
-    margin-top: -3vh;
-    margin-left: -3vh;
-    width: 25vh;
-    z-index: 1;
-}
-.imgStreet3{
-    margin-top: 18vh;
-    margin-left: -4vh;
-    width: 35vh;
-    z-index: 1;
-}
-.imgStreet4{
-    margin-top: 30vh;
-    margin-left: 19vh;
-    width: 37vh;
-    z-index: 1;
-}
-.imgStreet5{
-    margin-top: 37vh;
-    margin-left: 2vh;
-    width: 20vh;
-    z-index: 1;
-}
-.imgStreet6{
-    margin-top: 47vh;
-    margin-left: 27vh;
-    width: 25vh;
-    height: 25vh;
-    z-index: 1;
-    object-fit: cover;
-    object-position: top;
-}
+@media (hover: none) {
+  .portfolioToLeft {
+    position: relative;
+    display: inline-block;
+    border: none;
+    font-size: 10vw;
+    height: 10vh;
+    width: 10vw;
+    top: 45vh;
+    left: 5vw;
+    z-index: 100;
+    padding: 0;
+    background: none;
+    transition: 0.3s;
+    color: black;
+  }
+  .portfolioToLeft:active {
+    scale: 120%;
+    background-color: black;
+    color: white;
+  }
 
-.imgBusiness{
-    position: absolute;
-}
-.imgBusiness1{
-    margin-top: -7vh;
-    margin-left: 17vh;
-    width: 27vh;
-    z-index: 1;
-}
-.imgBusiness2{
-    margin-top: -3vh;
-    margin-left: -6vh;
-    width: 25vh;
-    z-index: 1;
-}
-.imgBusiness3{
-    margin-top: 15vh;
-    margin-left: 25vh;
-    width: 25vh;
-    z-index: 1;
-}
-.imgBusiness4{
-    margin-top: 25vh;
-    margin-left: 2vh;
-    width: 25vh;
-    z-index: 1;
-}
-.imgBusiness5{
-    margin-top: 39vh;
-    margin-left: 20vh;
-    width: 27vh;
-    z-index: 1;
-}
-
-.imgParty{
-    position: absolute;
-    transform: translateX(100%);
-}
-.imgParty1{
-    margin-top: -3vh;
-    margin-left: -1vh;
-    width: 42vh;
-    z-index: 0;
-}
-.imgParty2{
-    margin-top: 15vh;
-    margin-left: 26vh;
-    width: 20vh;
-    z-index: 2;
-}
-.imgParty3{
-    margin-top: 20vh;
-    margin-left: 8vh;
-    width: 22vh;
-    z-index: 2;
-}
-.imgParty4{
-    margin-top: 22vh;
-    margin-left: -14vh;
-    width: 25vh;
-    z-index: 0;
-}
-.imgParty5{
-    margin-top: 47vh;
-    margin-left: 5vh;
-    width: 35vh;
-    z-index: 2;
-    
-}
-.portfolioToRight{
+  .portfolioToRight {
+    position: relative;
+    display: inline-block;
+    border: none;
+    font-size: 10vw;
+    top: 45vh;
+    left: 75vw;
+    height: 10vh;
+    width: 10vw;
+    z-index: 100;
+    padding: 0;
+    background: none;
+    transition: 0.3s;
+    color: black;
+  }
+  .portfolioToRight:active {
+    scale: 120%;
+    background-color: black;
+    color: white;
+  }
+  .imgPortfolio {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  .portfolioTitle {
+    font-size: 5vh;
+  }
+  .fashionSection {
     display: none;
-}
-.portfolioToLeft{
+  }
+  .personalSection {
     display: none;
+  }
+  .partySection {
+    display: none;
+  }
+  .businessSection {
+    display: none;
+  }
+  .pictureSections {
+    margin-left: -17vw;
+    scale: 50%;
+    margin-left: -10vw;
+  }
+  .showCaseDisplay1 {
+    margin-bottom: -20vh;
+  }
+  .showCaseDisplay2 {
+    color: white;
+  }
+  .pictureSections:hover {
+    scale: 50%;
+  }
 }
-@media(max-width: 600px){
-    .pictureSections{
-        scale: 70%
-    }
-    .pictureSections:hover{
-        scale:75%
-    }
-}
+@media (max-width: 600px) {
+  .portfolioToLeft {
+    position: relative;
+    display: inline-block;
+    border: none;
+    font-size: 10vw;
+    height: 10vh;
+    width: 10vw;
+    top: 45vh;
+    left: 5vw;
+    z-index: 100;
+    padding: 0;
+    background: none;
+    transition: 0.3s;
+    color: black;
+  }
+  .portfolioToLeft:active {
+    scale: 120%;
+    background-color: black;
+    color: white;
+  }
 
-@media(max-width: 400px){
-    .pictureSections{
-        scale: 60%
-    }
-    .pictureSections:hover{
-        scale:65%
-    }
-}
-@media(max-width: 350px){
-    .pictureSections{
-        scale: 50%
-    }
-    .pictureSections:hover{
-        scale:55%
-    }
-}
-@media(hover:none){
-    .portfolioToLeft{
-        position: relative;
-        display: inline-block;
-        border: none;
-        font-size: 10vw;
-        height: 10vh;
-        width: 10vw;
-        top:45vh;
-        left:5vw;
-        z-index: 100;
-        padding: 0;
-        background: none;
-        transition: 0.3s;
-        color: black;
-    }
-    .portfolioToLeft:active{
-        scale:120%;
-        background-color: black;
-        color: white;
-    }
-    
-    .portfolioToRight{
-        position:relative;
-        display: inline-block;
-        border: none;
-        font-size: 10vw;
-        top:45vh;
-        left:75vw;
-        height: 10vh;
-        width: 10vw;
-        z-index: 100;
-        padding: 0;
-        background: none;
-        transition: 0.3s;
-        color: black
-    }
-    .portfolioToRight:active{
-        scale:120%;
-        background-color: black;
-        color: white;
-    }
-    .portfolioToPhotoshop{
-        font-size: 2vh;
-    }
-    .imgPortfolio{
-        opacity: 1;
-        transform: translateX(0);
-    }
-    .portfolioTitle{
-        font-size: 5vh;
-    }
-    .fashionSection{
-        display: none;
-    }
-    .personalSection{
-        display: none;
-    }
-    .partySection{
-        display: none;
-    }
-    .businessSection{
-        display: none;
-    }
-    .pictureSections{
-        margin-left: -17vw;
-        scale: 50%;
-        margin-left: -10vw;
-    }
-    .showCaseDisplay1{
-        margin-bottom: -20vh;
-    }
-    .pictureSections:hover{
-        scale:50%
-    }
-    @media(max-width: 250px){
-        .pictureSections{
-            scale: 30%
-        }
-        .pictureSections:hover{
-            scale:30%
-        }
-    }
-    @media(max-width: 150px){
-        .pictureSections{
-            scale: 20%
-        }
-        .pictureSections:hover{
-            scale:20%
-        }
-        .portfolioTitle{
-            font-size: 10vw;
-        }
-    }
-    @media(max-width: 100px){
-        .pictureSections{
-            scale: 10%
-        }
-        .pictureSections:hover{
-            scale:10%
-        }
-    }
-}
-@media(hover:none){
-    .portfolioToLeft{
-        position: relative;
-        display: inline-block;
-        border: none;
-        font-size: 10vw;
-        height: 10vh;
-        width: 10vw;
-        top:45vh;
-        left:5vw;
-        z-index: 100;
-        padding: 0;
-        background: none;
-        transition: 0.3s;
-        color: black;
-    }
-    .portfolioToLeft:active{
-        scale:120%;
-        background-color: black;
-        color: white;
-    }
-
-    .portfolioToRight{
-        position:relative;
-        display: inline-block;
-        border: none;
-        font-size: 10vw;
-        top:45vh;
-        left:75vw;
-        height: 10vh;
-        width: 10vw;
-        z-index: 100;
-        padding: 0;
-        background: none;
-        transition: 0.3s;
-        color: black
-    }
-    .portfolioToRight:active{
-        scale:120%;
-        background-color: black;
-        color: white;
-    }
-    .imgPortfolio{
-        opacity: 1;
-        transform: translateX(0);
-    }
-    .portfolioTitle{
-        font-size: 5vh;
-    }
-    .fashionSection{
-        display: none;
-    }
-    .personalSection{
-        display: none;
-    }
-    .partySection{
-        display: none;
-    }
-    .businessSection{
-        display: none;
-    }
-    .pictureSections{
-        margin-left: -17vw;
-        scale: 50%;
-        margin-left: -10vw;
-    }
-    .showCaseDisplay1{
-        margin-bottom: -20vh;
-    }
-    .showCaseDisplay2{
-        color:white;
-    }
-    .pictureSections:hover{
-        scale:50%
-    }
-}
-@media(max-width:600px){
-    .portfolioToLeft{
-        position: relative;
-        display: inline-block;
-        border: none;
-        font-size: 10vw;
-        height: 10vh;
-        width: 10vw;
-        top:45vh;
-        left:5vw;
-        z-index: 100;
-        padding: 0;
-        background: none;
-        transition: 0.3s;
-        color: black;
-    }
-    .portfolioToLeft:active{
-        scale:120%;
-        background-color: black;
-        color: white;
-    }
-
-    .portfolioToRight{
-        position:relative;
-        display: inline-block;
-        border: none;
-        font-size: 10vw;
-        top:45vh;
-        left:75vw;
-        height: 10vh;
-        width: 10vw;
-        z-index: 100;
-        padding: 0;
-        background: none;
-        transition: 0.3s;
-        color: black
-    }
-    .portfolioToRight:active{
-        scale:120%;
-        background-color: black;
-        color: white;
-    }
-    .imgPortfolio{
-        opacity: 1;
-        transform: translateX(0);
-    }
-    .portfolioTitle{
-        font-size: 5vh;
-    }
-    .fashionSection{
-        display: none;
-    }
-    .personalSection{
-        display: none;
-    }
-    .partySection{
-        display: none;
-    }
-    .businessSection{
-        display: none;
-    }
-    .pictureSections{
-        margin-left: -17vw;
-        scale: 50%;
-        margin-left: -10vw;
-    }
-    .showCaseDisplay1{
-        margin-bottom: -20vh;
-    }
-    .showCaseDisplay2{
-        color:white;
-    }
-    .pictureSections:hover{
-        scale:50%
-    }
+  .portfolioToRight {
+    position: relative;
+    display: inline-block;
+    border: none;
+    font-size: 10vw;
+    top: 45vh;
+    left: 75vw;
+    height: 10vh;
+    width: 10vw;
+    z-index: 100;
+    padding: 0;
+    background: none;
+    transition: 0.3s;
+    color: black;
+  }
+  .portfolioToRight:active {
+    scale: 120%;
+    background-color: black;
+    color: white;
+  }
+  .imgPortfolio {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  .portfolioTitle {
+    font-size: 5vh;
+  }
+  .fashionSection {
+    display: none;
+  }
+  .personalSection {
+    display: none;
+  }
+  .partySection {
+    display: none;
+  }
+  .businessSection {
+    display: none;
+  }
+  .pictureSections {
+    margin-left: -17vw;
+    scale: 50%;
+    margin-left: -10vw;
+  }
+  .showCaseDisplay1 {
+    margin-bottom: -20vh;
+  }
+  .showCaseDisplay2 {
+    color: white;
+  }
+  .pictureSections:hover {
+    scale: 50%;
+  }
 }
